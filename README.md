@@ -1,4 +1,9 @@
-# tagbar markdown extension
+# tagbar notes extension
+
+A really lazy fork of https://github.com/lvht/tagbar-markdown to enable the tagbar plugin for .notes files which are used in the https://github.com/xolox/vim-notes plugin. I literally forked it and changed the names of things to .notes from .markdown.
+
+
+# Original README
 
 ### Intro
 tagbar-markdown is a tagbar extension for markdown.
