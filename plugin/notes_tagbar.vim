@@ -14,8 +14,8 @@ endfunction
 
 command! -nargs=0 MDAgenda call s:insertAgenda()
 
-if !exists('g:tagbar_type_markdown')
-	let g:tagbar_type_markdown = {
+if !exists('g:tagbar_type_notes')
+	let g:tagbar_type_notes = {
 				\ 'ctagsbin'  : s:bin_path,
 				\ 'ctagsargs' : '',
 				\ 'kinds'     : [
@@ -46,8 +46,8 @@ if !exists('g:tagbar_type_markdown')
 				\}
 endif
 
-let g:tagbar_type_ghmarkdown = g:tagbar_type_markdown
-let g:tagbar_type_rmd = g:tagbar_type_markdown
+let g:tagbar_type_ghnotes = g:tagbar_type_notes
+let g:tagbar_type_rnotes = g:tagbar_type_notes
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
